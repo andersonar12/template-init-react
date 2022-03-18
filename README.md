@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Template Init
+
+Esta plantilla sirve como base para iniciar algun proyecto en React, posee proteccion de rutas, un Context para Usuario logueado y un sistemas de rutas inclusive anidadas.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

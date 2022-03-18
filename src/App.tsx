@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { AuthContext, initialState, TContextState, User } from "./context/AuthContext";
+import { AppRouter } from "./routers/AppRouter";
 
 function App() {
+  const [user, dispatch] = useState(initialState.user);
+
+  const setUser = (user: User) => dispatch(user);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <AuthContext.Provider value={{ user, setUser }}>
+        {/* user y el dispatch se distribuiran en el AuthContext  */}
+        <AppRouter />
+      </AuthContext.Provider>
+    </BrowserRouter>
   );
 }
 
