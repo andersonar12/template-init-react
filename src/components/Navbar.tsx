@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center">
           <img src={require("../assets/favicon.ico")} width="30" alt="" className="mr-3"></img>

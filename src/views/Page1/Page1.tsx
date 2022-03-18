@@ -1,13 +1,13 @@
-import "./styles.css";
+import "./styles.scss";
 export const Page1 = () => {
   return (
-    <div className="container-fluid sidebar">
+    <div className="container-fluid ">
       <div className="row flex-nowrap">
-        <div className="col-auto col-md-3 col-xl-2 px-sm-2 bg-dark">
+        <div className="col-auto col-md-3 col-xl-2 px-sm-2 bg-dark sidebar">
           <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
             <a
               href="/"
-              className="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+              className="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none mt-5"
             >
               <span className="fs-5 d-none d-sm-inline">Menu</span>
             </a>
@@ -68,58 +68,13 @@ export const Page1 = () => {
                 </a>
               </li>
             </ul>
-            <hr />
-            <div className="dropdown pb-4">
-              <a
-                href="#"
-                className="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-                id="dropdownUser1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src="https://github.com/mdo.png"
-                  alt="hugenerd"
-                  width="30"
-                  height="30"
-                  className="rounded-circle"
-                />
-                <span className="d-none d-sm-inline mx-1">loser</span>
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-dark text-small shadow"
-                aria-labelledby="dropdownUser1"
-              >
-                <li>
-                  <a className="dropdown-item" href="#">
-                    New project...
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Profile
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Sign out
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
 
-        <div className="col py-3">
-          <h3>Left Sidebar with Submenus</h3>
+        <div className="col mt-5 outlet">
+          <h3 className="">
+            <strong>Left Sidebar with Submenus</strong>
+          </h3>
           <p className="lead">
             An example 2-level sidebar with collasible menu items. The menu functions like an
             "accordion" where only a single menu is be open at a time. While the sidebar itself is
@@ -129,6 +84,86 @@ export const Page1 = () => {
             <li>
               <h5>Responsive</h5> shrinks in width, hides text labels and collapses to icons only on
               mobile
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
+            </li>
+            <li>
+              <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim perferendis
+                accusantium ullam at quidem provident, necessitatibus quasi commodi doloribus sunt
+                libero, beatae excepturi animi ipsum a. Veniam, eum ipsam. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Iusto deserunt enim veniam odio explicabo facilis
+                suscipit dolorum illo voluptates quas, rem impedit possimus dignissimos, optio hic,
+                rerum obcaecati neque odit!
+              </h5>
             </li>
           </ul>
         </div>
