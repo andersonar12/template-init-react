@@ -1,6 +1,6 @@
 # Template Init
 
-Esta plantilla sirve como base para iniciar algun proyecto en React, posee proteccion de rutas, un Context para Usuario logueado y un sistemas de rutas inclusive anidadas.
+Esta plantilla sirve como base para iniciar algun proyecto en React, posee proteccion de rutas, un Context para Usuario logueado y un sistemas de rutas inclusive anidadas. Tambien se añade una configuracion de Redux para que sea escalabla en la aplicacion
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
